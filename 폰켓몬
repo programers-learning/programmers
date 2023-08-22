@@ -1,0 +1,9 @@
+def solution(nums):
+    take_num = len(nums)//2 #N/2마리
+    dup = set(nums) #중복제거
+    dup_num = len(dup) 
+
+    if take_num <= dup_num:
+        return take_num
+    else:
+        return dup_num
