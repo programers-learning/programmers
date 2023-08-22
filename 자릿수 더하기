@@ -1,5 +1,5 @@
 def solution(n):
-    numbers = list(map(int, str(n)))
+    numbers = list(map(int, str(n))) #list화
     total = sum(numbers)
 
     return total
